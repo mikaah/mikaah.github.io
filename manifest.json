@@ -1,0 +1,13 @@
+{
+  "name": "mGH PWA",
+  "start_url": "https://mikaah.github.io/app.html",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+
