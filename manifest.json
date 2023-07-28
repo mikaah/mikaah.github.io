@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "512.png",
+      "src": "256.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ]
 }
