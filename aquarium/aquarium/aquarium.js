@@ -1873,7 +1873,7 @@ function initialize() {
       if (!g.options.reflection.enabled) { g.options.reflection.toggle(); }
     }
 
-    g_requestId = requestAnimationFrame(onAnimationFrame);
+    //g_requestId = requestAnimationFrame(onAnimationFrame);
 
     if (g_shadersNeedUpdate) {
       var isInStereoMode = g_stereoDemoActive;
@@ -1919,6 +1919,8 @@ function initialize() {
     } else {
       renderMono();
     }
+    gl.finish();
+    g_requestId = requestAnimationFrame(onAnimationFrame);
   }
 
   g_onAnimationFrame = onAnimationFrame;

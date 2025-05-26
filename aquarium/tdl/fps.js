@@ -47,7 +47,7 @@ tdl.fps = tdl.fps || {};
  * Number of frames to average over for computing FPS.
  * @type {number}
  */
-tdl.fps.NUM_FRAMES_TO_AVERAGE = 16;
+tdl.fps.NUM_FRAMES_TO_AVERAGE = 100;
 
 /**
  * Measures frames per second.
